@@ -5,13 +5,18 @@ import sys
 import random
 from twython import Twython
 
-import urllib3
-urllib3.disable_warnings()
+# only uncomment these lines if it does not work
+# before uncommenting, you will need to install urllib3
+# install it with the command "pip install urllib3"
 
-API_KEY = 'T6UThSFsXlZvR0XYF0OwOGhgO'
-API_SECRET = 'AUyG7egvxWrp1ElN60nHumVsR8DRPrac9OU8Y9kWILUsMyRPHA'
-ACCESS_TOKEN = '1712969251-gLnf5nU5FEGW3ob2kCWVd4r52iWB9GY6NTKtoL4'
-ACCESS_TOKEN_SECRET = 'tCvOaKAAe0tumqUADrPJTsQ5hWMbzhnSpo13z2A8b47wm'
+#import urllib3
+#urllib3.disable_warnings()
+
+# API ACCESS TOKENS
+API_KEY = 'LyJSQNCHZgdjqONbs280TK1Or'
+API_SECRET = 'DdioxOLnhix5KUz81DLTzAKVa1BdiiaisvDVD3mmVX9heeScvE'
+ACCESS_TOKEN = '3153951443-H2Kf0iK3qghZx2vfYhfIaBbEVE8bzQ7y8JN98LR'
+ACCESS_TOKEN_SECRET = 'UyKFksP9RkBm3MNExAWO30Y2ctb23lXKxshkAbhJSewMM'
 
 api = Twython(API_KEY,API_SECRET,ACCESS_TOKEN,ACCESS_TOKEN_SECRET) 
 
