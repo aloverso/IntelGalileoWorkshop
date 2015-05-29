@@ -6,7 +6,7 @@ import smtplib
 from_address = 'engenhariainsper@gmail.com'
 password = 'insper2015'
 
-to_address  = 'aelv13@gmail.com'
+to_address  = 'YOUR_EMAIL_HERE'
 
 body = 'YOUR MESSAGE HERE'
 
